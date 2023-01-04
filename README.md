@@ -10,7 +10,7 @@
     - [Install](#install)
     - [Start server](#start-server)
     - [Test](#to-test-the-app-run-following-command)
-  - [👤 Author ](#-author-)
+  - [👤 Author ](#👤-author)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -22,7 +22,6 @@
 # 📖 Air Quality WorldWide
  <a name="about-project"></a>
 
-**[Air Quality WorldWide]** 
 > This web app allows users to che k for air quality in different parts of the world. In addition it provides proportion of elements in the air. The project uses [Air Pollution API](https://openweathermap.org/api/air-pollution) and [leaflet](https://leafletjs.com/) library for the display of air quality data and map interations
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -92,7 +91,7 @@ Clone this repository to your desired folder:
 
 <!-- AUTHORS -->
 
-## 👤 Author  <a name="author"></a>
+## 👤  Author  <a name="author"></a>
 
 ### Ayesha
 - GitHub: [@shella12](https://github.com/shella12)
