@@ -24,7 +24,7 @@
  <a name="about-project"></a>
 
 **[Air Quality WorldWide]** 
-- This web app allows users to che k for air quality in different parts of the world. In addition it provides proportion of elements in the air. The project uses [Air Pollution API](https://openweathermap.org/api/air-pollution) and [leaflet](https://leafletjs.com/) library for the display of air quality data and map interations
+> This web app allows users to che k for air quality in different parts of the world. In addition it provides proportion of elements in the air. The project uses [Air Pollution API](https://openweathermap.org/api/air-pollution) and [leaflet](https://leafletjs.com/) library for the display of air quality data and map interations
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,9 +38,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Look up different regions of the world]**
-- **[Detailed prooprtions of air particles]**
-- **[Air quality check]**
+- **Look up different regions of the world**
+- **Detailed prooprtions of air particles**
+- **Air quality check**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://)
+> [Live Demo Link](https://)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
