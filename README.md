@@ -2,15 +2,16 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Space Travelers' Hub](#-space-travelers-hub)
-  - [🛠 Built With React](#-built-with-react)
+  - [🛠 Built With](#-built-with)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Usage](#usage)
-  - [👥 Authors ](#-authors-)
-  - [👥 Ayesha  ](#-ayesha--)
+    - [Start server](#start-server)
+    - [Test](#to-test-the-app-run-following-command)
+  - [👤 Author ](#-authors-)
+  - [ Ayesha  ](#-ayesha--)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -25,7 +26,21 @@
 **[Air Quality WorldWide]** 
 - This web app allows users to che k for air quality in different parts of the world. In addition it provides proportion of elements in the air. The project uses [Air Pollution API](https://openweathermap.org/api/air-pollution) and [leaflet](https://leafletjs.com/) library for the display of air quality data and map interations
 
-## 🛠 Built With <a name="built-with">React</a>
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **[Look up different regions of the world]**
+- **[Detailed prooprtions of air particles]**
+- **[Air quality check]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,35 +71,31 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
-
 ```sh
   -cd my-folder
   -git clone https://github.com/shella12/pollutionCheck.git
 ```
 
-
-### Install
-
-Install this project with:
+## Install
 
 ```sh
-  npm install
+ npm install --save -dev
 ```
 
-### Usage
+## Start server
 
-To run the project, execute the following command:
+``` npm start ```
 
-`npm start`
+## To test the app run following command
 
+``` npm test ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-### 👥 Ayesha  <a name="authors"></a>
+### 👤 Ayesha  <a name="authors"></a>
 
 - GitHub: [@shella12](https://github.com/shella12)
 - Twitter: [@Ayesha Arshad](https://twitter.com/AyeshaA03712974)
@@ -123,8 +134,6 @@ If you like this project you can star it :)
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Project guidlines prvided by [Microverse](https://www.microverse.org/) and design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
