@@ -11,7 +11,6 @@
     - [Start server](#start-server)
     - [Test](#to-test-the-app-run-following-command)
   - [👤 Author ](#-authors-)
-  - [ Ayesha  ](#-ayesha--)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -93,10 +92,9 @@ Clone this repository to your desired folder:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👤 Author  <a name="author"></a>
 
-### 👤 Ayesha  <a name="authors"></a>
-
+### Ayesha
 - GitHub: [@shella12](https://github.com/shella12)
 - Twitter: [@Ayesha Arshad](https://twitter.com/AyeshaA03712974)
 - LinkedIn: [Ayesha Arshad](https://www.linkedin.com/in/-ayesha-arshad/)
@@ -107,7 +105,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
- - [Add map interactions]
+ - **Add map interactions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
