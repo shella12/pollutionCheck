@@ -10,7 +10,7 @@
     - [Install](#install)
     - [Start server](#start-server)
     - [Test](#to-test-the-app-run-following-command)
-  - [👤 Author ](#-authors-)
+  - [👤 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -19,7 +19,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Ait Pollution WorldWide
+# 📖 Air Quality WorldWide
  <a name="about-project"></a>
 
 **[Air Quality WorldWide]** 
