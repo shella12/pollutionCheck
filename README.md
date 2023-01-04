@@ -1,8 +1,8 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Space Travelers' Hub](#-space-travelers-hub)
-  - [🛠 Built With](#-built-with)
+- [📖 Air Quality WorldWide](#about-project)
+  - [🛠 Built With](#built-with)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -10,7 +10,7 @@
     - [Install](#install)
     - [Start server](#start-server)
     - [Test](#to-test-the-app-run-following-command)
-  - [👤 Author ](#👤-author)
+  - [👤 Author ](#author)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -91,7 +91,7 @@ Clone this repository to your desired folder:
 
 <!-- AUTHORS -->
 
-## 👤  Author  <a name="author"></a>
+## 👤 Author  <a name="author"></a>
 
 ### Ayesha
 - GitHub: [@shella12](https://github.com/shella12)
