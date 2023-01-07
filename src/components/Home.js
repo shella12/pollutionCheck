@@ -1,5 +1,4 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
 import { getAqi } from '../redux/airquality/airquality';
 import AQI from './AQI';
 import InputLocation from './InputLocation';
@@ -11,13 +10,8 @@ const Home = () => {
   const apilocation = useSelector((state) => state.LocationSlice);
   const inputLocation = (location) => {
     dispatch(getAqi(location));
+    dispatch(getLocation(location));
   };
-  useEffect(() => {
-    if (aqiData !== null) {
-      const arr = [aqiData.coord.lat, aqiData.coord.lon];
-      dispatch(getLocation(arr));
-    }
-  });
 
   return (
     <div>

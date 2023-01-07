@@ -1,10 +1,10 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { getGeoLocationReverse } from '../../API/GeoLocationAPI';
+import getGeoLocation from '../../API/GeoLocationAPI';
 
 const GET_LOCATION = 'POLLUTIONCHECK/getLocation/GET_LOCATION';
 const initialState = null;
-export const getLocation = createAsyncThunk(GET_LOCATION, async (arr) => {
-  const response = await getGeoLocationReverse(arr[0], arr[1]);
+export const getLocation = createAsyncThunk(GET_LOCATION, async (location) => {
+  const response = await getGeoLocation(location);
   return response;
 });
 
