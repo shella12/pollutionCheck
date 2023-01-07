@@ -17,8 +17,6 @@ const AQI = (props) => {
     country = location[0].country;
     components = aqiData.list[0].components;
     aqi = aqiData.list[0].main.aqi;
-    console.log(location);
-    console.log(aqiData);
   }
   return (
     <div className="aqi-container">

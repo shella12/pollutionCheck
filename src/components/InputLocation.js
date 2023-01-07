@@ -1,10 +1,20 @@
 import { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 import { PropTypes } from 'prop-types';
+import { usePlacesWidget } from 'react-google-autocomplete';
 
 const InputLocation = (props) => {
   const { inputLocation } = props;
   const [location, setlocation] = useState('');
+  const { ref } = usePlacesWidget({
+    apiKey: 'AIzaSyDYYRY4MTwwz70HfxEEuAVOThkMtnfGBbQ',
+    onPlaceSelected: (place) => {
+      console.log(place);
+    },
+    options: {
+      types: ['(cities)'],
+    },
+  });
   const onClickHandler = (event) => {
     event.preventDefault();
     if (location.trim()) {
@@ -16,7 +26,28 @@ const InputLocation = (props) => {
   };
   return (
     <form className="form-container">
-      <input className="input-text" type="text" placeholder="Enter location..." value={location} onChange={(e) => setlocation(e.target.value)} />
+      <input
+        className="input-text"
+        ref={ref}
+        type="text"
+        placeholder="Enter location..."
+        value={location}
+        onChange={(e) => setlocation(e.target.value)}
+        onSelect={(e) => setlocation(e.target.value)}
+      />
+      {/* <Autocomplete
+        className="input-text"
+        apiKey="AIzaSyDYYRY4MTwwz70HfxEEuAVOThkMtnfGBbQ"
+        onPlaceSelected={(cities) => {
+          console.log(cities);
+        }}
+        options={{
+          types: ['(cities)'],
+        }}
+        inputAutocompleteValue={location}
+        placeholder="Enter location..."
+        onChange={(e) => setlocation(e.target.value)}
+      /> */}
       <button className="input-submit" type="submit" onClick={(e) => onClickHandler(e)}>
         <FiSearch style={{ color: '#0290ff', fontSize: '1.6rem' }} />
       </button>
