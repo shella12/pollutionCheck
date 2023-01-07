@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pollutionCheck/static/css/main.b159c56d.css",
+    "main.js": "/pollutionCheck/static/js/main.5d84fba1.js",
+    "static/media/blueLogoBg.jpg": "/pollutionCheck/static/media/blueLogoBg.22e0b1d12b8123520511.jpg",
+    "index.html": "/pollutionCheck/index.html",
+    "main.b159c56d.css.map": "/pollutionCheck/static/css/main.b159c56d.css.map",
+    "main.5d84fba1.js.map": "/pollutionCheck/static/js/main.5d84fba1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b159c56d.css",
+    "static/js/main.5d84fba1.js"
+  ]
+}
