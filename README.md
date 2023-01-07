@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
->  click here to see the [Live Demo](https://)
+>  click here to see the [Live Demo](https://shella12.github.io/pollutionCheck/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
