@@ -1,6 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Categories from './components/Categories';
 import Home from './components/Home';
 import logoIcon from './assests/logoIcon.png';
 
@@ -14,12 +13,10 @@ function App() {
         </div>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/Categories">Categories</Link>
         </nav>
       </header>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/Categories" element={<Categories />} />
       </Routes>
     </div>
   );

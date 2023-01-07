@@ -35,19 +35,6 @@ const InputLocation = (props) => {
         onChange={(e) => setlocation(e.target.value)}
         onSelect={(e) => setlocation(e.target.value)}
       />
-      {/* <Autocomplete
-        className="input-text"
-        apiKey="AIzaSyDYYRY4MTwwz70HfxEEuAVOThkMtnfGBbQ"
-        onPlaceSelected={(cities) => {
-          console.log(cities);
-        }}
-        options={{
-          types: ['(cities)'],
-        }}
-        inputAutocompleteValue={location}
-        placeholder="Enter location..."
-        onChange={(e) => setlocation(e.target.value)}
-      /> */}
       <button className="input-submit" type="submit" onClick={(e) => onClickHandler(e)}>
         <FiSearch style={{ color: '#0290ff', fontSize: '1.6rem' }} />
       </button>
