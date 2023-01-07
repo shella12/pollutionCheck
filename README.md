@@ -42,9 +42,13 @@
 
 ### Key Features <a name="key-features"></a>
 
+Main features:
+
 - **Look up different regions of the world**
 - **Detailed prooprtions of air particles**
 - **Air quality check**
+
+[Click](https://www.loom.com/share/22c2429f73804baa9189896e80ec091d) to see video of features in detail
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

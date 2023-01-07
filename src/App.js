@@ -12,7 +12,7 @@ function App() {
           <h1 className="logo-heading">irQualityIndex</h1>
         </div>
         <nav>
-          <Link to="/">Home</Link>
+          <Link to="/Home">Home</Link>
         </nav>
       </header>
       <Routes>
