@@ -22,7 +22,7 @@
 # 📖 Air Quality WorldWide
  <a name="about-project"></a>
 
-> This web app allows users to che k for air quality in different parts of the world. In addition it provides proportion of elements in the air. The project uses [Air Pollution API](https://openweathermap.org/api/air-pollution) and [leaflet](https://leafletjs.com/) library for the display of air quality data and map interations
+> This web app allows users to check for air quality in different cities of the world. In addition it provides proportion of elements in the air. The project uses [Air Pollution API](https://openweathermap.org/api/air-pollution) and [google place autocomplete](https://developers.google.com/maps/documentation/javascript/place-autocomplete) feature for the display of air quality data and fetching cities of the world
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,12 +33,22 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://cloud.google.com/">Google cloud</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
+
+Main features:
 
 - **Look up different regions of the world**
 - **Detailed prooprtions of air particles**
 - **Air quality check**
+
+[Click](https://www.loom.com/share/22c2429f73804baa9189896e80ec091d) to see video of features in detail
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Live Demo Link](https://)
+>  click here to see the [Live Demo](https://shella12.github.io/pollutionCheck/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
