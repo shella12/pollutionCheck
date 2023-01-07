@@ -8,9 +8,6 @@ const InputLocation = (props) => {
   const [location, setlocation] = useState('');
   const { ref } = usePlacesWidget({
     apiKey: 'AIzaSyDYYRY4MTwwz70HfxEEuAVOThkMtnfGBbQ',
-    onPlaceSelected: (place) => {
-      console.log(place);
-    },
     options: {
       types: ['(cities)'],
     },

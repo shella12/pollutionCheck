@@ -10,7 +10,7 @@
 
 :root {
   --black: #272a31;
-  --cyan: #09CDF4;
+  --cyan: #09cdf4;
   --light-grey: #d3d3d3;
   --grey: #4b4c4e;
   --font-main-heading: 'Dela Gothic One', cursive;
@@ -74,13 +74,14 @@ nav a {
   margin: 9rem 15% 3rem 15%;
   padding: 0.5rem 2rem;
   border: 1px solid var(--light-grey);
-  box-shadow: 6px 24px 52px -10px rgba(0,0,0,0.75);
--webkit-box-shadow: 6px 24px 52px -10px rgba(0,0,0,0.75);
--moz-box-shadow: 6px 24px 52px -10px rgba(0,0,0,0.75);
-border-radius: 1.5rem;
+  box-shadow: 6px 24px 52px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 24px 52px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 24px 52px -10px rgba(0, 0, 0, 0.75);
+  border-radius: 1.5rem;
 }
 
-.input-text, .input-submit {
+.input-text,
+.input-submit {
   border: none;
   outline: none;
   background-color: transparent;
@@ -131,6 +132,7 @@ th {
   vertical-align: text-top;
   padding: 1rem 2rem 1rem 0.3rem;
 }
+
 th {
   text-align: center;
 }

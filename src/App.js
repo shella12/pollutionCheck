@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
+import AQI from './components/AQI';
 import logoIcon from './assests/logoIcon.png';
 
 function App() {
@@ -12,11 +13,12 @@ function App() {
           <h1 className="logo-heading">irQualityIndex</h1>
         </div>
         <nav>
-          <Link to="/Home">Home</Link>
+          <Link to="/">Home</Link>
         </nav>
       </header>
       <Routes>
         <Route index element={<Home />} />
+        <Route path="/AQI" element={<AQI />} />
       </Routes>
     </div>
   );
