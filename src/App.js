@@ -1,8 +1,9 @@
-import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home';
-import AQI from './components/AQI';
+import { Link, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+// import AQI from './pages/AQI';
 import logoIcon from './assests/logoIcon.png';
+// import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       </header>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/AQI" element={<AQI />} />
+        {/* <Route path="/AQI" element={<AQI />} />
+        <Route path="/PageNotFound" element={<PageNotFound />} /> */}
       </Routes>
     </div>
   );

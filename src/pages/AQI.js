@@ -1,16 +1,27 @@
 import { PropTypes } from 'prop-types';
-import AQILabel from './AQILabel';
-import AQITable from './AQITable';
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { resetState } from '../redux/airquality/airquality';
+import AQILabel from '../components/AQILabel';
+import AQITable from '../components/AQITable';
 
 const AQI = (props) => {
-  const { aqiData, location } = props;
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const { aqiData, location, error } = props;
   let coordinates = '';
   let locationName = '';
   let locationState = '';
   let country = '';
   let components = '';
   let aqi = '';
-  if (aqiData !== null && location !== null) {
+
+  if (error === 'Cannot read properties of undefined (reading \'lat\')') {
+    dispatch(resetState());
+    navigate('/PageNotFound', { state: { message: 'Requested Page not Found' } });
+  }
+
+  if (aqiData !== null && location !== null && aqiData.coord) {
     coordinates = `\u00A0\u00A0\u00A0\u00A0${aqiData.coord.lat}°,\u00A0\u00A0\u00A0\u00A0${aqiData.coord.lon}°`;
     locationName = location[0].name;
     locationState = location[0].state;
@@ -20,7 +31,7 @@ const AQI = (props) => {
   }
   return (
     <div className="aqi-container">
-      {aqiData ? (
+      {aqiData && aqiData !== 'Cannot read properties of undefined (reading \'lat\')' ? (
         <div className="aqi-details">
           <h1 className="location-heading">
             {locationName}
@@ -62,12 +73,18 @@ const AQI = (props) => {
 AQI.defaultProps = {
   aqiData: null,
   location: null,
+  error: null,
 };
 AQI.propTypes = {
   aqiData: PropTypes.objectOf(PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object,
+    PropTypes.array,
   ]).isRequired),
-  location: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string, PropTypes.object)),
+  location: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.array,
+  ]),
+  error: PropTypes.string,
 };
 export default AQI;

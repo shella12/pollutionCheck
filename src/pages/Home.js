@@ -1,12 +1,13 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { getAqi } from '../redux/airquality/airquality';
 import AQI from './AQI';
-import InputLocation from './InputLocation';
+import InputLocation from '../components/InputLocation';
 import { getLocation } from '../redux/getLocation/getLocation';
 
 const Home = () => {
   const dispatch = useDispatch();
-  const aqiData = useSelector((state) => state.AqiSlice);
+  const aqiData = useSelector((state) => state.AqiSlice.aqi);
+  const error = useSelector((state) => state.AqiSlice.error);
   const apilocation = useSelector((state) => state.LocationSlice);
   const inputLocation = (location) => {
     dispatch(getAqi(location));
@@ -19,6 +20,7 @@ const Home = () => {
       <AQI
         aqiData={aqiData}
         location={apilocation}
+        error={error}
       />
     </div>
   );

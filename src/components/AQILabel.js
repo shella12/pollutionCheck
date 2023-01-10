@@ -49,6 +49,6 @@ const AQILabel = (props) => {
 };
 
 AQILabel.propTypes = {
-  aqi: PropTypes.string.isRequired,
+  aqi: PropTypes.number.isRequired,
 };
 export default AQILabel;

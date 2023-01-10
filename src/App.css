@@ -9,8 +9,10 @@
 }
 
 :root {
-  --black: #272a31;
-  --cyan: #09cdf4;
+  --dark-blue: #39789D;
+  --witting-blue: #B3E1EF;
+  --blue: #6EB5CD;
+  --off-white: #F4F2F4;
   --light-grey: #d3d3d3;
   --grey: #4b4c4e;
   --font-main-heading: 'Dela Gothic One', cursive;
@@ -18,8 +20,14 @@
   --font-para: 'Lato';
 }
 
+#root {
+  background: linear-gradient(to bottom, var(--dark-blue), var(--blue));
+  height: 100%;
+}
+
 .App {
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
@@ -61,7 +69,7 @@ nav {
 }
 
 nav a {
-  color: var(--cyan);
+  color: var(--witting-blue);
   text-decoration: none;
   font-size: medium;
   font-family: var(--font-heading);
@@ -73,11 +81,13 @@ nav a {
   justify-content: space-between;
   margin: 9rem 15% 3rem 15%;
   padding: 0.5rem 2rem;
-  border: 1px solid var(--light-grey);
+  border: 1px solid var(--off-white);
   box-shadow: 6px 24px 52px -10px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 6px 24px 52px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 24px 52px -10px rgba(0, 0, 0, 0.75);
   border-radius: 1.5rem;
+  background-color: var(--off-white);
+  opacity: 0.5;
 }
 
 .input-text,
